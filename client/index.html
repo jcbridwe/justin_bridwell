@@ -63,12 +63,11 @@
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.facebook.com/justin.bridwell.5"><i class="fa fa-facebook"></i></a></li>
                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                <li><a href="#"><i class="fa fa-skype"></i></a></li>
             </ul>
          </div>
@@ -118,7 +117,7 @@
 
                <div class="columns download">
                   <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="img/resume.pdf" class="button" download><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -702,34 +701,35 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form method="POST" action="https://formspree.io/jcbridwe@gmail.com" id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
 						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <input type="text" value="" size="35" id="contactName" name="name">
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="_replyto">
                   </div>
 
                   <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+						   <label for="contactSubject">Subject </label>
+						   <input type="text" value="" size="35" id="contactSubject" name="_subject">
                   </div>
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="img/loader.gif">
-                     </span>
+                     <!--<button class="submit" type="submit">Submit</button>-->
+                     <input class="mt-1" type="submit" value="Submit">
+                     <!--<span id="image-loader">-->
+                     <!--   <img alt="" src="img/loader.gif">-->
+                     <!--</span>-->
                   </div>
 
 					</fieldset>
