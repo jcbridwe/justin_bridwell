@@ -207,8 +207,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -258,7 +258,7 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col { padding-top: 0px; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -318,93 +318,119 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #423fe4;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.javascript {
+  	width: 70%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.python {
+  	width: 75%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+.frameworks {
   	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: frameworks 2s ease;
+  	-webkit-animation: frameworks 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.html {
+  	width: 85%;
+  	-moz-animation: html 2s ease;
+  	-webkit-animation: html 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.net {
+  	width: 60%;
+  	-moz-animation: net 2s ease;
+  	-webkit-animation: net 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+.api {
+  	width: 65%;
+  	-moz-animation: api 2s ease;
+  	-webkit-animation: api 2s ease;
 }
-.html5 {
-  	width: 40%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+.gis {
+   width: 80%;
+   -moz-animation: gis 2s ease;
+   -webkit-animation: gis 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.sql {
+   width: 70%;
+   -moz-animation: sql 2s ease;
+   -webkit-animation: sql 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes frameworks {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 85%;  }
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-
-@-webkit-keyframes photoshop {
+@-moz-keyframes net {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
-@-webkit-keyframes illustrator {
+@-moz-keyframes api {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 65%;  }
 }
-@-webkit-keyframes wordpress {
+@-moz-keyframes gis {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
+
+@-webkit-keyframes javascript {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 75%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes frameworks {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 60%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes html {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 85%;  }
 }
+@-webkit-keyframes net {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes api {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes gis {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
